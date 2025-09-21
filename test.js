@@ -246,4 +246,104 @@
    *   window.tcolisAddStyles(['.selector{...}', '...']);
    */
   window.tcolisAddStyles = addStyleRules;
+
+
+// ===== Leaflet (sans clé) + Nominatim =====
+
+// Adresse en variable (remplacée plus tard par ton fetch JSON)
+var MAP_ADDRESS = '10 Avenue des Champs-Élysées, 75008 Paris, France';
+
+// Charge Leaflet (CSS + JS) une seule fois
+var _leafletLoading = null;
+function loadLeaflet() {
+  if (window.L && window.L.map) return Promise.resolve(window.L);
+  if (_leafletLoading) return _leafletLoading;
+
+  _leafletLoading = new Promise(function (resolve, reject) {
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+
+    var js = document.createElement('script');
+    js.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    js.async = true;
+
+    var done = 0;
+    function check() {
+      done++;
+      if (done === 2) {
+        if (window.L && window.L.map) resolve(window.L);
+        else reject(new Error('Leaflet non chargé'));
+      }
+    }
+    css.onload = check; js.onload = check;
+    css.onerror = reject; js.onerror = reject;
+
+    document.head.appendChild(css);
+    document.head.appendChild(js);
+  });
+
+  return _leafletLoading;
+}
+
+// Géocode via Nominatim (OSM)
+function geocodeWithNominatim(address) {
+  var url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q=' + encodeURIComponent(address);
+  return fetch(url, {
+    headers: {
+      // Bonnes pratiques d’usage Nominatim
+      'Accept': 'application/json'
+    }
+  }).then(function (r) { return r.json(); })
+    .then(function (arr) {
+      if (arr && arr[0]) {
+        return {
+          lat: parseFloat(arr[0].lat),
+          lng: parseFloat(arr[0].lon),
+          display_name: arr[0].display_name
+        };
+      }
+      throw new Error('Adresse introuvable');
+    });
+}
+
+// Rend la carte dans .map-suivis
+function renderLeafletAtAddress(address) {
+  var container = document.querySelector('.map-suivis');
+  if (!container) return;
+  if (!container.style.height) container.style.height = '340px';
+
+  Promise.all([loadLeaflet(), geocodeWithNominatim(address)])
+    .then(function (res) {
+      var L = res[0], pos = res[1];
+
+      // Nettoie le conteneur si besoin (Leaflet insère ses enfants)
+      container.innerHTML = '';
+
+      var map = L.map(container).setView([pos.lat, pos.lng], 15);
+
+      // Tuiles OSM "officielles" (respecter l’usage raisonnable)
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+
+      var marker = L.marker([pos.lat, pos.lng]).addTo(map);
+      marker.bindPopup(pos.display_name || address).openPopup();
+    })
+    .catch(function (err) {
+      container.innerHTML = '<div style="padding:8px;font-size:13px;color:#555;">Carte indisponible : ' + err.message + '</div>';
+    });
+}
+
+// Appel
+renderLeafletAtAddress(MAP_ADDRESS);
+
+// --- Plus tard avec ton JSON ---
+// fetch('/ton.json').then(r=>r.json()).then(data => {
+//   var adresse = data && data.adresse_livraison; // adapte la clé
+//   if (adresse) renderLeafletAtAddress(adresse);
+// });
+
+
 })();
