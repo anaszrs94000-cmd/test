@@ -1,0 +1,2339 @@
+{
+  "championships": [
+    {
+      "id": 1,
+      "country": "France",
+      "name": "Division d'Honneur Régionale",
+      "flag": "./img/flags/france.png",
+      "matches": [
+        {
+          "id": 1,
+          "teamA": {
+            "name": "AS Villeneuve",
+            "logo": "./img/teams/villeneuve.png",
+            "score": 2
+          },
+          "teamB": {
+            "name": "FC Montargis",
+            "logo": "./img/teams/montargis.png",
+            "score": 1
+          },
+          "date": "2025-11-15T15:00:00",
+          "kickoffTime": "2025-11-15T15:00:00",
+          "endTime": "2025-11-15T16:52:00",
+          "status": "finished",
+          "streamUrl": "https://streaming-amateur.fr/match/villeneuve-montargis",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 23,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 10,
+              "minute": 56,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 10,
+              "minute": 78,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.15,
+              "draw": 3.20,
+              "teamB": 3.45
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.35,
+              "teamAOrTeamB": 1.52,
+              "drawOrTeamB": 1.85
+            },
+            "bothTeamsScore": {
+              "yes": 1.95,
+              "no": 1.85
+            },
+            "totalGoals": {
+              "over15": 1.35,
+              "under15": 3.10,
+              "over25": 2.05,
+              "under25": 1.75,
+              "over35": 3.40,
+              "under35": 1.30
+            },
+            "exactScore": {
+              "0-0": 9.50,
+              "1-0": 7.20,
+              "2-0": 8.50,
+              "2-1": 7.80,
+              "1-1": 6.50,
+              "0-1": 11.00,
+              "0-2": 15.00,
+              "1-2": 12.50,
+              "3-0": 14.00,
+              "3-1": 13.50
+            },
+            "goalDifference": {
+              "teamABy1": 5.20,
+              "teamABy2": 6.80,
+              "teamABy3Plus": 11.50,
+              "teamBBy1": 7.40,
+              "teamBBy2": 10.50,
+              "teamBBy3Plus": 18.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "7": 5.50,
+                "9": 4.80,
+                "10": 6.20,
+                "11": 7.50,
+                "14": 8.00
+              },
+              "teamB": {
+                "9": 6.50,
+                "10": 5.80,
+                "7": 7.20,
+                "11": 8.50,
+                "17": 9.00
+              }
+            },
+            "halfTime": {
+              "teamA": 3.20,
+              "draw": 2.15,
+              "teamB": 4.80
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 3.80,
+              "teamADraw": 11.00,
+              "teamATeamB": 21.00,
+              "drawTeamA": 5.50,
+              "drawDraw": 6.20,
+              "drawTeamB": 7.80,
+              "teamBTeamA": 35.00,
+              "teamBDraw": 15.00,
+              "teamBTeamB": 8.50
+            }
+          }
+        },
+        {
+          "id": 2,
+          "teamA": {
+            "name": "US Châteauroux B",
+            "logo": "./img/teams/chateauroux.png",
+            "score": 3
+          },
+          "teamB": {
+            "name": "ES Vierzon",
+            "logo": "./img/teams/vierzon.png",
+            "score": 0
+          },
+          "date": "2025-11-15T17:30:00",
+          "kickoffTime": "2025-11-15T17:30:00",
+          "endTime": "2025-11-15T19:18:00",
+          "status": "finished",
+          "streamUrl": "https://streaming-amateur.fr/match/chateauroux-vierzon",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 12,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 10,
+              "minute": 34,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 67,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 1.85,
+              "draw": 3.30,
+              "teamB": 4.20
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.25,
+              "teamAOrTeamB": 1.45,
+              "drawOrTeamB": 2.05
+            },
+            "bothTeamsScore": {
+              "yes": 2.10,
+              "no": 1.70
+            },
+            "totalGoals": {
+              "over15": 1.28,
+              "under15": 3.50,
+              "over25": 1.95,
+              "under25": 1.85,
+              "over35": 3.20,
+              "under35": 1.35
+            },
+            "exactScore": {
+              "0-0": 10.00,
+              "1-0": 6.50,
+              "2-0": 7.80,
+              "2-1": 7.20,
+              "1-1": 6.80,
+              "0-1": 13.00,
+              "0-2": 18.00,
+              "1-2": 14.50,
+              "3-0": 12.00,
+              "3-1": 11.50
+            },
+            "goalDifference": {
+              "teamABy1": 4.80,
+              "teamABy2": 6.20,
+              "teamABy3Plus": 10.00,
+              "teamBBy1": 8.50,
+              "teamBBy2": 12.50,
+              "teamBBy3Plus": 22.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 4.50,
+                "10": 5.20,
+                "11": 6.80,
+                "7": 7.00,
+                "18": 8.50
+              },
+              "teamB": {
+                "9": 7.50,
+                "11": 6.80,
+                "10": 8.00,
+                "8": 9.50,
+                "14": 10.00
+              }
+            },
+            "halfTime": {
+              "teamA": 2.80,
+              "draw": 2.20,
+              "teamB": 5.50
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 3.20,
+              "teamADraw": 12.00,
+              "teamATeamB": 25.00,
+              "drawTeamA": 4.80,
+              "drawDraw": 6.50,
+              "drawTeamB": 9.00,
+              "teamBTeamA": 42.00,
+              "teamBDraw": 18.00,
+              "teamBTeamB": 10.50
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "country": "Allemagne",
+      "name": "Landesliga Baden",
+      "flag": "./img/flags/germany.png",
+      "matches": [
+        {
+          "id": 3,
+          "teamA": {
+            "name": "SV Oberachern",
+            "logo": "./img/teams/oberachern.png",
+            "score": 1
+          },
+          "teamB": {
+            "name": "FC Bühl",
+            "logo": "./img/teams/buhl.png",
+            "score": 1
+          },
+          "date": "2025-11-14T14:00:00",
+          "kickoffTime": "2025-11-14T14:00:00",
+          "endTime": "2025-11-14T15:48:00",
+          "status": "finished",
+          "streamUrl": "https://landesliga-stream.de/oberachern-buhl",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 28,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 10,
+              "minute": 71,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.40,
+              "draw": 3.10,
+              "teamB": 2.95
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.42,
+              "teamAOrTeamB": 1.48,
+              "drawOrTeamB": 1.65
+            },
+            "bothTeamsScore": {
+              "yes": 1.88,
+              "no": 1.92
+            },
+            "totalGoals": {
+              "over15": 1.40,
+              "under15": 2.85,
+              "over25": 2.15,
+              "under25": 1.68,
+              "over35": 3.60,
+              "under35": 1.28
+            },
+            "exactScore": {
+              "0-0": 8.50,
+              "1-0": 7.80,
+              "2-0": 9.20,
+              "2-1": 8.00,
+              "1-1": 6.20,
+              "0-1": 9.50,
+              "0-2": 12.00,
+              "1-2": 10.50,
+              "3-0": 15.00,
+              "3-1": 14.00
+            },
+            "goalDifference": {
+              "teamABy1": 5.80,
+              "teamABy2": 7.50,
+              "teamABy3Plus": 13.00,
+              "teamBBy1": 6.20,
+              "teamBBy2": 8.50,
+              "teamBBy3Plus": 15.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.20,
+                "7": 5.80,
+                "10": 6.50,
+                "11": 7.80,
+                "15": 8.20
+              },
+              "teamB": {
+                "10": 5.50,
+                "9": 6.00,
+                "11": 7.00,
+                "7": 7.50,
+                "19": 8.80
+              }
+            },
+            "halfTime": {
+              "teamA": 3.50,
+              "draw": 2.10,
+              "teamB": 4.20
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.20,
+              "teamADraw": 10.00,
+              "teamATeamB": 19.00,
+              "drawTeamA": 6.00,
+              "drawDraw": 5.80,
+              "drawTeamB": 7.20,
+              "teamBTeamA": 28.00,
+              "teamBDraw": 14.00,
+              "teamBTeamB": 7.80
+            }
+          }
+        },
+        {
+          "id": 4,
+          "teamA": {
+            "name": "VfR Pforzheim",
+            "logo": "./img/teams/pforzheim.png",
+            "score": 2
+          },
+          "teamB": {
+            "name": "SV Linkenheim",
+            "logo": "./img/teams/linkenheim.png",
+            "score": 2
+          },
+          "date": "2025-11-14T16:00:00",
+          "kickoffTime": "2025-11-14T16:00:00",
+          "endTime": "2025-11-14T17:54:00",
+          "status": "finished",
+          "streamUrl": "https://landesliga-stream.de/pforzheim-linkenheim",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 18,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 35,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 10,
+              "minute": 52,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 7,
+              "minute": 82,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.05,
+              "draw": 3.25,
+              "teamB": 3.65
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.32,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.92
+            },
+            "bothTeamsScore": {
+              "yes": 2.00,
+              "no": 1.80
+            },
+            "totalGoals": {
+              "over15": 1.32,
+              "under15": 3.20,
+              "over25": 2.00,
+              "under25": 1.78,
+              "over35": 3.35,
+              "under35": 1.32
+            },
+            "exactScore": {
+              "0-0": 9.80,
+              "1-0": 7.00,
+              "2-0": 8.20,
+              "2-1": 7.50,
+              "1-1": 6.60,
+              "0-1": 11.50,
+              "0-2": 16.00,
+              "1-2": 13.00,
+              "3-0": 13.50,
+              "3-1": 12.50
+            },
+            "goalDifference": {
+              "teamABy1": 5.00,
+              "teamABy2": 6.50,
+              "teamABy3Plus": 11.00,
+              "teamBBy1": 7.80,
+              "teamBBy2": 11.00,
+              "teamBBy3Plus": 19.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 4.80,
+                "10": 5.50,
+                "11": 6.80,
+                "7": 7.20,
+                "16": 8.00
+              },
+              "teamB": {
+                "9": 6.80,
+                "10": 6.20,
+                "7": 7.80,
+                "11": 8.50,
+                "14": 9.20
+              }
+            },
+            "halfTime": {
+              "teamA": 3.00,
+              "draw": 2.18,
+              "teamB": 5.00
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 3.50,
+              "teamADraw": 11.50,
+              "teamATeamB": 23.00,
+              "drawTeamA": 5.20,
+              "drawDraw": 6.30,
+              "drawTeamB": 8.20,
+              "teamBTeamA": 38.00,
+              "teamBDraw": 16.00,
+              "teamBTeamB": 9.50
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "country": "Angleterre",
+      "name": "Northern League Division One",
+      "flag": "./img/flags/england.png",
+      "matches": [
+        {
+          "id": 5,
+          "teamA": {
+            "name": "Seaham Red Star",
+            "logo": "./img/teams/seaham.png",
+            "score": 0
+          },
+          "teamB": {
+            "name": "Consett AFC",
+            "logo": "./img/teams/consett.png",
+            "score": 2
+          },
+          "date": "2025-11-13T15:00:00",
+          "kickoffTime": "2025-11-13T15:00:00",
+          "endTime": "2025-11-13T16:51:00",
+          "status": "finished",
+          "streamUrl": "https://northern-league-tv.co.uk/seaham-consett",
+          "goals": [
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 41,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 10,
+              "minute": 68,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 3.10,
+              "draw": 3.05,
+              "teamB": 2.35
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.58,
+              "teamAOrTeamB": 1.52,
+              "drawOrTeamB": 1.40
+            },
+            "bothTeamsScore": {
+              "yes": 1.85,
+              "no": 1.95
+            },
+            "totalGoals": {
+              "over15": 1.38,
+              "under15": 2.95,
+              "over25": 2.10,
+              "under25": 1.72,
+              "over35": 3.50,
+              "under35": 1.30
+            },
+            "exactScore": {
+              "0-0": 8.80,
+              "1-0": 8.50,
+              "2-0": 10.50,
+              "2-1": 9.00,
+              "1-1": 6.00,
+              "0-1": 8.00,
+              "0-2": 10.00,
+              "1-2": 9.50,
+              "3-0": 17.00,
+              "3-1": 15.50
+            },
+            "goalDifference": {
+              "teamABy1": 6.50,
+              "teamABy2": 8.80,
+              "teamABy3Plus": 15.50,
+              "teamBBy1": 5.50,
+              "teamBBy2": 7.20,
+              "teamBBy3Plus": 12.50
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 6.20,
+                "10": 5.80,
+                "7": 7.00,
+                "11": 8.20,
+                "17": 9.00
+              },
+              "teamB": {
+                "9": 5.00,
+                "10": 5.50,
+                "11": 6.50,
+                "7": 7.20,
+                "18": 8.00
+              }
+            },
+            "halfTime": {
+              "teamA": 4.20,
+              "draw": 2.08,
+              "teamB": 3.40
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 5.50,
+              "teamADraw": 9.50,
+              "teamATeamB": 16.00,
+              "drawTeamA": 7.20,
+              "drawDraw": 5.60,
+              "drawTeamB": 6.50,
+              "teamBTeamA": 22.00,
+              "teamBDraw": 12.00,
+              "teamBTeamB": 6.20
+            }
+          }
+        },
+        {
+          "id": 6,
+          "teamA": {
+            "name": "Ashington FC",
+            "logo": "./img/teams/ashington.png",
+            "score": 3
+          },
+          "teamB": {
+            "name": "Newton Aycliffe",
+            "logo": "./img/teams/aycliffe.png",
+            "score": 1
+          },
+          "date": "2025-11-13T15:00:00",
+          "kickoffTime": "2025-11-13T15:00:00",
+          "endTime": "2025-11-13T16:56:00",
+          "status": "finished",
+          "streamUrl": "https://northern-league-tv.co.uk/ashington-aycliffe",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 15,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 10,
+              "minute": 33,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 58,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 75,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.20,
+              "draw": 3.15,
+              "teamB": 3.30
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.36,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.80
+            },
+            "bothTeamsScore": {
+              "yes": 1.92,
+              "no": 1.88
+            },
+            "totalGoals": {
+              "over15": 1.36,
+              "under15": 3.05,
+              "over25": 2.08,
+              "under25": 1.74,
+              "over35": 3.45,
+              "under35": 1.31
+            },
+            "exactScore": {
+              "0-0": 9.20,
+              "1-0": 7.50,
+              "2-0": 8.80,
+              "2-1": 7.80,
+              "1-1": 6.40,
+              "0-1": 10.50,
+              "0-2": 14.00,
+              "1-2": 11.50,
+              "3-0": 14.50,
+              "3-1": 13.00
+            },
+            "goalDifference": {
+              "teamABy1": 5.30,
+              "teamABy2": 7.00,
+              "teamABy3Plus": 12.00,
+              "teamBBy1": 7.20,
+              "teamBBy2": 9.50,
+              "teamBBy3Plus": 17.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.00,
+                "10": 5.60,
+                "7": 6.80,
+                "11": 7.50,
+                "14": 8.20
+              },
+              "teamB": {
+                "9": 6.50,
+                "10": 6.00,
+                "11": 7.50,
+                "7": 8.00,
+                "16": 8.80
+              }
+            },
+            "halfTime": {
+              "teamA": 3.20,
+              "draw": 2.15,
+              "teamB": 4.60
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 3.90,
+              "teamADraw": 10.50,
+              "teamATeamB": 20.00,
+              "drawTeamA": 5.60,
+              "drawDraw": 6.00,
+              "drawTeamB": 7.50,
+              "teamBTeamA": 32.00,
+              "teamBDraw": 15.00,
+              "teamBTeamB": 8.80
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "country": "Italie",
+      "name": "Eccellenza Lombardia",
+      "flag": "./img/flags/italy.png",
+      "matches": [
+        {
+          "id": 7,
+          "teamA": {
+            "name": "USD Casatese",
+            "logo": "./img/teams/casatese.png",
+            "score": 1
+          },
+          "teamB": {
+            "name": "AC Crema",
+            "logo": "./img/teams/crema.png",
+            "score": 2
+          },
+          "date": "2025-11-12T14:30:00",
+          "kickoffTime": "2025-11-12T14:30:00",
+          "endTime": "2025-11-12T16:24:00",
+          "status": "finished",
+          "streamUrl": "https://eccellenza-live.it/casatese-crema",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 27,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 44,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 10,
+              "minute": 89,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.55,
+              "draw": 3.00,
+              "teamB": 2.80
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.45,
+              "teamAOrTeamB": 1.48,
+              "drawOrTeamB": 1.58
+            },
+            "bothTeamsScore": {
+              "yes": 1.90,
+              "no": 1.90
+            },
+            "totalGoals": {
+              "over15": 1.42,
+              "under15": 2.78,
+              "over25": 2.18,
+              "under25": 1.66,
+              "over35": 3.65,
+              "under35": 1.27
+            },
+            "exactScore": {
+              "0-0": 8.20,
+              "1-0": 8.00,
+              "2-0": 9.50,
+              "2-1": 8.20,
+              "1-1": 5.80,
+              "0-1": 8.80,
+              "0-2": 11.50,
+              "1-2": 10.00,
+              "3-0": 16.00,
+              "3-1": 14.50
+            },
+            "goalDifference": {
+              "teamABy1": 6.00,
+              "teamABy2": 7.80,
+              "teamABy3Plus": 14.00,
+              "teamBBy1": 6.50,
+              "teamBBy2": 8.50,
+              "teamBBy3Plus": 15.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.50,
+                "10": 6.00,
+                "11": 7.20,
+                "7": 7.80,
+                "15": 8.50
+              },
+              "teamB": {
+                "9": 5.80,
+                "10": 6.20,
+                "7": 7.50,
+                "11": 8.00,
+                "17": 8.80
+              }
+            },
+            "halfTime": {
+              "teamA": 3.60,
+              "draw": 2.12,
+              "teamB": 3.90
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.50,
+              "teamADraw": 9.80,
+              "teamATeamB": 18.00,
+              "drawTeamA": 6.20,
+              "drawDraw": 5.70,
+              "drawTeamB": 6.80,
+              "teamBTeamA": 25.00,
+              "teamBDraw": 13.50,
+              "teamBTeamB": 7.50
+            }
+          }
+        },
+        {
+          "id": 8,
+          "teamA": {
+            "name": "Varesina Calcio",
+            "logo": "./img/teams/varesina.png",
+            "score": 1
+          },
+          "teamB": {
+            "name": "Solbiatese",
+            "logo": "./img/teams/solbiatese.png",
+            "score": 1
+          },
+          "date": "2025-11-12T14:30:00",
+          "kickoffTime": "2025-11-12T14:30:00",
+          "endTime": "2025-11-12T16:19:00",
+          "status": "finished",
+          "streamUrl": "https://eccellenza-live.it/varesina-solbiatese",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 31,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 64,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 1.95,
+              "draw": 3.30,
+              "teamB": 3.95
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.28,
+              "teamAOrTeamB": 1.48,
+              "drawOrTeamB": 1.98
+            },
+            "bothTeamsScore": {
+              "yes": 2.05,
+              "no": 1.75
+            },
+            "totalGoals": {
+              "over15": 1.30,
+              "under15": 3.40,
+              "over25": 1.98,
+              "under25": 1.82,
+              "over35": 3.25,
+              "under35": 1.34
+            },
+            "exactScore": {
+              "0-0": 10.20,
+              "1-0": 6.80,
+              "2-0": 8.00,
+              "2-1": 7.40,
+              "1-1": 6.70,
+              "0-1": 12.50,
+              "0-2": 17.00,
+              "1-2": 13.50,
+              "3-0": 12.50,
+              "3-1": 11.80
+            },
+            "goalDifference": {
+              "teamABy1": 4.90,
+              "teamABy2": 6.40,
+              "teamABy3Plus": 10.50,
+              "teamBBy1": 8.20,
+              "teamBBy2": 11.50,
+              "teamBBy3Plus": 20.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 4.70,
+                "10": 5.30,
+                "7": 6.50,
+                "11": 7.20,
+                "18": 8.00
+              },
+              "teamB": {
+                "9": 7.20,
+                "10": 6.50,
+                "11": 8.00,
+                "7": 8.50,
+                "14": 9.50
+              }
+            },
+            "halfTime": {
+              "teamA": 2.90,
+              "draw": 2.20,
+              "teamB": 5.30
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 3.40,
+              "teamADraw": 11.80,
+              "teamATeamB": 24.00,
+              "drawTeamA": 5.00,
+              "drawDraw": 6.40,
+              "drawTeamB": 8.50,
+              "teamBTeamA": 40.00,
+              "teamBDraw": 17.00,
+              "teamBTeamB": 10.20
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "country": "Espagne",
+      "name": "Tercera División Grupo 7",
+      "flag": "./img/flags/spain.png",
+      "matches": [
+        {
+          "id": 9,
+          "teamA": {
+            "name": "CD Badajoz B",
+            "logo": "./img/teams/badajoz.png",
+            "score": 2
+          },
+          "teamB": {
+            "name": "Cacereño",
+            "logo": "./img/teams/cacereno.png",
+            "score": 2
+          },
+          "date": "2025-11-11T17:00:00",
+          "kickoffTime": "2025-11-11T17:00:00",
+          "endTime": "2025-11-11T18:53:00",
+          "status": "finished",
+          "streamUrl": "https://tercera-stream.es/badajoz-cacereno",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 22,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 36,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 7,
+              "minute": 59,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 10,
+              "minute": 87,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.75,
+              "draw": 2.95,
+              "teamB": 2.65
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.50,
+              "teamAOrTeamB": 1.48,
+              "drawOrTeamB": 1.48
+            },
+            "bothTeamsScore": {
+              "yes": 1.88,
+              "no": 1.92
+            },
+            "totalGoals": {
+              "over15": 1.45,
+              "under15": 2.70,
+              "over25": 2.22,
+              "under25": 1.64,
+              "over35": 3.70,
+              "under35": 1.26
+            },
+            "exactScore": {
+              "0-0": 7.80,
+              "1-0": 8.20,
+              "2-0": 9.80,
+              "2-1": 8.50,
+              "1-1": 5.60,
+              "0-1": 8.50,
+              "0-2": 10.50,
+              "1-2": 9.80,
+              "3-0": 16.50,
+              "3-1": 15.00
+            },
+            "goalDifference": {
+              "teamABy1": 6.20,
+              "teamABy2": 8.20,
+              "teamABy3Plus": 14.50,
+              "teamBBy1": 6.00,
+              "teamBBy2": 7.80,
+              "teamBBy3Plus": 13.50
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.80,
+                "7": 6.20,
+                "10": 7.00,
+                "11": 8.00,
+                "14": 8.50
+              },
+              "teamB": {
+                "9": 5.60,
+                "10": 6.00,
+                "7": 6.80,
+                "11": 7.80,
+                "17": 8.20
+              }
+            },
+            "halfTime": {
+              "teamA": 3.80,
+              "draw": 2.10,
+              "teamB": 3.70
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.80,
+              "teamADraw": 9.50,
+              "teamATeamB": 17.50,
+              "drawTeamA": 6.50,
+              "drawDraw": 5.50,
+              "drawTeamB": 6.40,
+              "teamBTeamA": 24.00,
+              "teamBDraw": 13.00,
+              "teamBTeamB": 7.20
+            }
+          }
+        },
+        {
+          "id": 10,
+          "teamA": {
+            "name": "CD Coria",
+            "logo": "./img/teams/coria.png",
+            "score": 1
+          },
+          "teamB": {
+            "name": "Moralo CP",
+            "logo": "./img/teams/moralo.png",
+            "score": 0
+          },
+          "date": "2025-11-11T17:00:00",
+          "kickoffTime": "2025-11-11T17:00:00",
+          "endTime": "2025-11-11T18:47:00",
+          "status": "finished",
+          "streamUrl": "https://tercera-stream.es/coria-moralo",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 62,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.30,
+              "draw": 3.10,
+              "teamB": 3.15
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.38,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.75
+            },
+            "bothTeamsScore": {
+              "yes": 1.95,
+              "no": 1.85
+            },
+            "totalGoals": {
+              "over15": 1.38,
+              "under15": 2.98,
+              "over25": 2.12,
+              "under25": 1.70,
+              "over35": 3.55,
+              "under35": 1.29
+            },
+            "exactScore": {
+              "0-0": 9.00,
+              "1-0": 7.80,
+              "2-0": 9.00,
+              "2-1": 8.00,
+              "1-1": 6.20,
+              "0-1": 10.20,
+              "0-2": 13.50,
+              "1-2": 11.00,
+              "3-0": 15.00,
+              "3-1": 13.50
+            },
+            "goalDifference": {
+              "teamABy1": 5.50,
+              "teamABy2": 7.20,
+              "teamABy3Plus": 12.50,
+              "teamBBy1": 7.00,
+              "teamBBy2": 9.20,
+              "teamBBy3Plus": 16.50
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.20,
+                "10": 5.80,
+                "11": 7.00,
+                "7": 7.50,
+                "16": 8.20
+              },
+              "teamB": {
+                "9": 6.30,
+                "10": 6.00,
+                "7": 7.20,
+                "11": 8.20,
+                "15": 8.80
+              }
+            },
+            "halfTime": {
+              "teamA": 3.30,
+              "draw": 2.14,
+              "teamB": 4.40
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.00,
+              "teamADraw": 10.20,
+              "teamATeamB": 19.50,
+              "drawTeamA": 5.80,
+              "drawDraw": 5.90,
+              "drawTeamB": 7.30,
+              "teamBTeamA": 30.00,
+              "teamBDraw": 14.50,
+              "teamBTeamB": 8.50
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "country": "Portugal",
+      "name": "Campeonato de Portugal Série D",
+      "flag": "./img/flags/portugal.png",
+      "matches": [
+        {
+          "id": 11,
+          "teamA": {
+            "name": "SC Mirandela",
+            "logo": "./img/teams/mirandela.png",
+            "score": 0
+          },
+          "teamB": {
+            "name": "Vianense FC",
+            "logo": "./img/teams/vianense.png",
+            "score": 1
+          },
+          "date": "2025-11-10T15:00:00",
+          "kickoffTime": "2025-11-10T15:00:00",
+          "endTime": "2025-11-10T16:46:00",
+          "status": "finished",
+          "streamUrl": "https://campeonato-portugal.tv/mirandela-vianense",
+          "goals": [
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 53,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.65,
+              "draw": 3.00,
+              "teamB": 2.70
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.48,
+              "teamAOrTeamB": 1.48,
+              "drawOrTeamB": 1.52
+            },
+            "bothTeamsScore": {
+              "yes": 1.90,
+              "no": 1.90
+            },
+            "totalGoals": {
+              "over15": 1.43,
+              "under15": 2.75,
+              "over25": 2.20,
+              "under25": 1.65,
+              "over35": 3.68,
+              "under35": 1.27
+            },
+            "exactScore": {
+              "0-0": 8.00,
+              "1-0": 8.30,
+              "2-0": 9.80,
+              "2-1": 8.40,
+              "1-1": 5.70,
+              "0-1": 8.50,
+              "0-2": 10.80,
+              "1-2": 9.80,
+              "3-0": 16.50,
+              "3-1": 15.00
+            },
+            "goalDifference": {
+              "teamABy1": 6.10,
+              "teamABy2": 8.00,
+              "teamABy3Plus": 14.20,
+              "teamBBy1": 6.20,
+              "teamBBy2": 8.20,
+              "teamBBy3Plus": 14.50
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.70,
+                "10": 6.10,
+                "7": 7.10,
+                "11": 7.90,
+                "14": 8.40
+              },
+              "teamB": {
+                "9": 5.80,
+                "10": 6.20,
+                "11": 7.30,
+                "7": 7.80,
+                "16": 8.50
+              }
+            },
+            "halfTime": {
+              "teamA": 3.70,
+              "draw": 2.11,
+              "teamB": 3.80
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.70,
+              "teamADraw": 9.60,
+              "teamATeamB": 17.80,
+              "drawTeamA": 6.40,
+              "drawDraw": 5.60,
+              "drawTeamB": 6.50,
+              "teamBTeamA": 24.50,
+              "teamBDraw": 13.20,
+              "teamBTeamB": 7.40
+            }
+          }
+        },
+        {
+          "id": 12,
+          "teamA": {
+            "name": "AD Fafe",
+            "logo": "./img/teams/fafe.png",
+            "score": 2
+          },
+          "teamB": {
+            "name": "Montalegre FC",
+            "logo": "./img/teams/montalegre.png",
+            "score": 0
+          },
+          "date": "2025-11-10T15:00:00",
+          "kickoffTime": "2025-11-10T15:00:00",
+          "endTime": "2025-11-10T16:49:00",
+          "status": "finished",
+          "streamUrl": "https://campeonato-portugal.tv/fafe-montalegre",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 25,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 10,
+              "minute": 81,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.10,
+              "draw": 3.20,
+              "teamB": 3.50
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.34,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.88
+            },
+            "bothTeamsScore": {
+              "yes": 1.98,
+              "no": 1.82
+            },
+            "totalGoals": {
+              "over15": 1.34,
+              "under15": 3.15,
+              "over25": 2.04,
+              "under25": 1.76,
+              "over35": 3.40,
+              "under35": 1.31
+            },
+            "exactScore": {
+              "0-0": 9.50,
+              "1-0": 7.20,
+              "2-0": 8.50,
+              "2-1": 7.70,
+              "1-1": 6.50,
+              "0-1": 11.00,
+              "0-2": 15.00,
+              "1-2": 12.00,
+              "3-0": 14.00,
+              "3-1": 12.80
+            },
+            "goalDifference": {
+              "teamABy1": 5.10,
+              "teamABy2": 6.70,
+              "teamABy3Plus": 11.50,
+              "teamBBy1": 7.60,
+              "teamBBy2": 10.20,
+              "teamBBy3Plus": 18.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 4.90,
+                "10": 5.50,
+                "11": 6.70,
+                "7": 7.30,
+                "17": 8.00
+              },
+              "teamB": {
+                "9": 6.70,
+                "10": 6.20,
+                "7": 7.60,
+                "11": 8.40,
+                "14": 9.00
+              }
+            },
+            "halfTime": {
+              "teamA": 3.10,
+              "draw": 2.17,
+              "teamB": 4.80
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 3.70,
+              "teamADraw": 11.00,
+              "teamATeamB": 22.00,
+              "drawTeamA": 5.40,
+              "drawDraw": 6.20,
+              "drawTeamB": 8.00,
+              "teamBTeamA": 36.00,
+              "teamBDraw": 16.00,
+              "teamBTeamB": 9.20
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "country": "Belgique",
+      "name": "Promotion VFV",
+      "flag": "./img/flags/belgium.png",
+      "matches": [
+        {
+          "id": 13,
+          "teamA": {
+            "name": "KFC Turnhout",
+            "logo": "./img/teams/turnhout.png",
+            "score": 3
+          },
+          "teamB": {
+            "name": "SC Beersel",
+            "logo": "./img/teams/beersel.png",
+            "score": 2
+          },
+          "date": "2025-11-09T14:30:00",
+          "kickoffTime": "2025-11-09T14:30:00",
+          "endTime": "2025-11-09T16:27:00",
+          "status": "finished",
+          "streamUrl": "https://vfv-stream.be/turnhout-beersel",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 8,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 30,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 10,
+              "minute": 48,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 10,
+              "minute": 66,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 7,
+              "minute": 90,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.45,
+              "draw": 3.05,
+              "teamB": 2.90
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.43,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.62
+            },
+            "bothTeamsScore": {
+              "yes": 1.90,
+              "no": 1.90
+            },
+            "totalGoals": {
+              "over15": 1.40,
+              "under15": 2.85,
+              "over25": 2.16,
+              "under25": 1.67,
+              "over35": 3.62,
+              "under35": 1.28
+            },
+            "exactScore": {
+              "0-0": 8.40,
+              "1-0": 8.10,
+              "2-0": 9.60,
+              "2-1": 8.30,
+              "1-1": 5.90,
+              "0-1": 9.20,
+              "0-2": 11.80,
+              "1-2": 10.20,
+              "3-0": 16.20,
+              "3-1": 14.80
+            },
+            "goalDifference": {
+              "teamABy1": 5.90,
+              "teamABy2": 7.70,
+              "teamABy3Plus": 13.80,
+              "teamBBy1": 6.40,
+              "teamBBy2": 8.60,
+              "teamBBy3Plus": 15.20
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.40,
+                "10": 5.90,
+                "7": 7.10,
+                "11": 7.70,
+                "15": 8.40
+              },
+              "teamB": {
+                "9": 5.90,
+                "10": 6.30,
+                "11": 7.40,
+                "7": 8.00,
+                "18": 8.70
+              }
+            },
+            "halfTime": {
+              "teamA": 3.50,
+              "draw": 2.13,
+              "teamB": 4.00
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.30,
+              "teamADraw": 9.90,
+              "teamATeamB": 18.50,
+              "drawTeamA": 6.10,
+              "drawDraw": 5.70,
+              "drawTeamB": 6.90,
+              "teamBTeamA": 26.00,
+              "teamBDraw": 13.80,
+              "teamBTeamB": 7.80
+            }
+          }
+        },
+        {
+          "id": 14,
+          "teamA": {
+            "name": "FC Nijlen",
+            "logo": "./img/teams/nijlen.png",
+            "score": 1
+          },
+          "teamB": {
+            "name": "Sporting Hasselt",
+            "logo": "./img/teams/hasselt.png",
+            "score": 3
+          },
+          "date": "2025-11-09T14:30:00",
+          "kickoffTime": "2025-11-09T14:30:00",
+          "endTime": "2025-11-09T16:25:00",
+          "status": "finished",
+          "streamUrl": "https://vfv-stream.be/nijlen-hasselt",
+          "goals": [
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 19,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 42,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 10,
+              "minute": 61,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 11,
+              "minute": 85,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.85,
+              "draw": 2.98,
+              "teamB": 2.55
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.52,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.46
+            },
+            "bothTeamsScore": {
+              "yes": 1.87,
+              "no": 1.93
+            },
+            "totalGoals": {
+              "over15": 1.44,
+              "under15": 2.72,
+              "over25": 2.20,
+              "under25": 1.65,
+              "over35": 3.68,
+              "under35": 1.27
+            },
+            "exactScore": {
+              "0-0": 7.90,
+              "1-0": 8.40,
+              "2-0": 10.00,
+              "2-1": 8.60,
+              "1-1": 5.60,
+              "0-1": 8.20,
+              "0-2": 10.20,
+              "1-2": 9.50,
+              "3-0": 17.00,
+              "3-1": 15.50
+            },
+            "goalDifference": {
+              "teamABy1": 6.30,
+              "teamABy2": 8.40,
+              "teamABy3Plus": 14.80,
+              "teamBBy1": 5.80,
+              "teamBBy2": 7.50,
+              "teamBBy3Plus": 13.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.90,
+                "10": 6.30,
+                "7": 7.30,
+                "11": 8.10,
+                "14": 8.60
+              },
+              "teamB": {
+                "9": 5.50,
+                "10": 5.90,
+                "11": 7.00,
+                "7": 7.60,
+                "17": 8.30
+              }
+            },
+            "halfTime": {
+              "teamA": 3.90,
+              "draw": 2.09,
+              "teamB": 3.60
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 5.00,
+              "teamADraw": 9.40,
+              "teamATeamB": 17.00,
+              "drawTeamA": 6.70,
+              "drawDraw": 5.50,
+              "drawTeamB": 6.30,
+              "teamBTeamA": 22.00,
+              "teamBDraw": 12.50,
+              "teamBTeamB": 7.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "country": "Pays-Bas",
+      "name": "Derde Divisie Zaterdag",
+      "flag": "./img/flags/netherlands.png",
+      "matches": [
+        {
+          "id": 15,
+          "teamA": {
+            "name": "HSC '21",
+            "logo": "./img/teams/hsc21.png",
+            "score": 2
+          },
+          "teamB": {
+            "name": "WHC Wezep",
+            "logo": "./img/teams/wezep.png",
+            "score": 1
+          },
+          "date": "2025-11-08T14:00:00",
+          "kickoffTime": "2025-11-08T14:00:00",
+          "endTime": "2025-11-08T15:51:00",
+          "status": "finished",
+          "streamUrl": "https://derde-divisie.nl/hsc21-wezep",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 16,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 54,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 11,
+              "minute": 73,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.35,
+              "draw": 3.10,
+              "teamB": 3.05
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.40,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.72
+            },
+            "bothTeamsScore": {
+              "yes": 1.93,
+              "no": 1.87
+            },
+            "totalGoals": {
+              "over15": 1.37,
+              "under15": 3.00,
+              "over25": 2.10,
+              "under25": 1.71,
+              "over35": 3.48,
+              "under35": 1.30
+            },
+            "exactScore": {
+              "0-0": 8.90,
+              "1-0": 7.90,
+              "2-0": 9.20,
+              "2-1": 8.10,
+              "1-1": 6.10,
+              "0-1": 9.80,
+              "0-2": 13.00,
+              "1-2": 10.80,
+              "3-0": 15.50,
+              "3-1": 14.00
+            },
+            "goalDifference": {
+              "teamABy1": 5.60,
+              "teamABy2": 7.30,
+              "teamABy3Plus": 12.80,
+              "teamBBy1": 6.80,
+              "teamBBy2": 9.00,
+              "teamBBy3Plus": 16.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.30,
+                "10": 5.80,
+                "11": 7.00,
+                "7": 7.60,
+                "16": 8.20
+              },
+              "teamB": {
+                "9": 6.10,
+                "10": 5.90,
+                "7": 7.10,
+                "11": 8.00,
+                "15": 8.70
+              }
+            },
+            "halfTime": {
+              "teamA": 3.40,
+              "draw": 2.14,
+              "teamB": 4.30
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.10,
+              "teamADraw": 10.10,
+              "teamATeamB": 19.00,
+              "drawTeamA": 5.90,
+              "drawDraw": 5.90,
+              "drawTeamB": 7.20,
+              "teamBTeamA": 28.00,
+              "teamBDraw": 14.20,
+              "teamBTeamB": 8.20
+            }
+          }
+        },
+        {
+          "id": 16,
+          "teamA": {
+            "name": "VVOG Harderwijk",
+            "logo": "./img/teams/vvog.png",
+            "score": 0
+          },
+          "teamB": {
+            "name": "Harkemase Boys",
+            "logo": "./img/teams/harkemase.png",
+            "score": 0
+          },
+          "date": "2025-11-08T14:00:00",
+          "kickoffTime": "2025-11-08T14:00:00",
+          "endTime": "2025-11-08T15:45:00",
+          "status": "finished",
+          "streamUrl": "https://derde-divisie.nl/vvog-harkemase",
+          "goals": [],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.70,
+              "draw": 3.00,
+              "teamB": 2.65
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.49,
+              "teamAOrTeamB": 1.48,
+              "drawOrTeamB": 1.50
+            },
+            "bothTeamsScore": {
+              "yes": 1.89,
+              "no": 1.91
+            },
+            "totalGoals": {
+              "over15": 1.42,
+              "under15": 2.78,
+              "over25": 2.18,
+              "under25": 1.66,
+              "over35": 3.65,
+              "under35": 1.27
+            },
+            "exactScore": {
+              "0-0": 8.10,
+              "1-0": 8.30,
+              "2-0": 9.90,
+              "2-1": 8.50,
+              "1-1": 5.70,
+              "0-1": 8.40,
+              "0-2": 10.50,
+              "1-2": 9.70,
+              "3-0": 16.80,
+              "3-1": 15.20
+            },
+            "goalDifference": {
+              "teamABy1": 6.20,
+              "teamABy2": 8.10,
+              "teamABy3Plus": 14.30,
+              "teamBBy1": 6.10,
+              "teamBBy2": 7.90,
+              "teamBBy3Plus": 14.00
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.70,
+                "10": 6.20,
+                "7": 7.20,
+                "11": 8.00,
+                "14": 8.50
+              },
+              "teamB": {
+                "9": 5.60,
+                "10": 6.10,
+                "11": 7.10,
+                "7": 7.70,
+                "17": 8.40
+              }
+            },
+            "halfTime": {
+              "teamA": 3.75,
+              "draw": 2.10,
+              "teamB": 3.70
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.75,
+              "teamADraw": 9.50,
+              "teamATeamB": 17.50,
+              "drawTeamA": 6.50,
+              "drawDraw": 5.60,
+              "drawTeamB": 6.40,
+              "teamBTeamA": 23.50,
+              "teamBDraw": 13.00,
+              "teamBTeamB": 7.30
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "country": "Pologne",
+      "name": "III Liga Grupa III",
+      "flag": "./img/flags/poland.png",
+      "matches": [
+        {
+          "id": 17,
+          "teamA": {
+            "name": "Pogoń Grodzisk",
+            "logo": "./img/teams/grodzisk.png",
+            "score": 1
+          },
+          "teamB": {
+            "name": "Stal Brzeg",
+            "logo": "./img/teams/brzeg.png",
+            "score": 2
+          },
+          "date": "2025-11-07T13:00:00",
+          "kickoffTime": "2025-11-07T13:00:00",
+          "endTime": "2025-11-07T14:53:00",
+          "status": "finished",
+          "streamUrl": "https://iii-liga.pl/grodzisk-brzeg",
+          "goals": [
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 24,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 47,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 11,
+              "minute": 79,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.50,
+              "draw": 3.05,
+              "teamB": 2.85
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.44,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.60
+            },
+            "bothTeamsScore": {
+              "yes": 1.91,
+              "no": 1.89
+            },
+            "totalGoals": {
+              "over15": 1.41,
+              "under15": 2.82,
+              "over25": 2.17,
+              "under25": 1.67,
+              "over35": 3.63,
+              "under35": 1.28
+            },
+            "exactScore": {
+              "0-0": 8.30,
+              "1-0": 8.20,
+              "2-0": 9.70,
+              "2-1": 8.40,
+              "1-1": 5.80,
+              "0-1": 9.00,
+              "0-2": 11.50,
+              "1-2": 10.10,
+              "3-0": 16.30,
+              "3-1": 14.90
+            },
+            "goalDifference": {
+              "teamABy1": 5.95,
+              "teamABy2": 7.80,
+              "teamABy3Plus": 13.90,
+              "teamBBy1": 6.30,
+              "teamBBy2": 8.40,
+              "teamBBy3Plus": 14.80
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.50,
+                "10": 6.00,
+                "7": 7.15,
+                "11": 7.80,
+                "15": 8.45
+              },
+              "teamB": {
+                "9": 5.85,
+                "10": 6.25,
+                "11": 7.35,
+                "7": 7.95,
+                "16": 8.60
+              }
+            },
+            "halfTime": {
+              "teamA": 3.60,
+              "draw": 2.12,
+              "teamB": 3.95
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.40,
+              "teamADraw": 9.80,
+              "teamATeamB": 18.20,
+              "drawTeamA": 6.20,
+              "drawDraw": 5.65,
+              "drawTeamB": 6.80,
+              "teamBTeamA": 25.50,
+              "teamBDraw": 13.60,
+              "teamBTeamB": 7.65
+            }
+          }
+        },
+        {
+          "id": 18,
+          "teamA": {
+            "name": "Unia Janikowo",
+            "logo": "./img/teams/janikowo.png",
+            "score": 3
+          },
+          "teamB": {
+            "name": "Obra Kościan",
+            "logo": "./img/teams/koscian.png",
+            "score": 1
+          },
+          "date": "2025-11-07T13:00:00",
+          "kickoffTime": "2025-11-07T13:00:00",
+          "endTime": "2025-11-07T14:58:00",
+          "status": "finished",
+          "streamUrl": "https://iii-liga.pl/janikowo-koscian",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 11,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 10,
+              "minute": 38,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 65,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 11,
+              "minute": 88,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.20,
+              "draw": 3.15,
+              "teamB": 3.30
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.36,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.80
+            },
+            "bothTeamsScore": {
+              "yes": 1.94,
+              "no": 1.86
+            },
+            "totalGoals": {
+              "over15": 1.36,
+              "under15": 3.05,
+              "over25": 2.08,
+              "under25": 1.74,
+              "over35": 3.45,
+              "under35": 1.31
+            },
+            "exactScore": {
+              "0-0": 9.10,
+              "1-0": 7.60,
+              "2-0": 8.90,
+              "2-1": 7.90,
+              "1-1": 6.30,
+              "0-1": 10.30,
+              "0-2": 13.80,
+              "1-2": 11.20,
+              "3-0": 14.80,
+              "3-1": 13.30
+            },
+            "goalDifference": {
+              "teamABy1": 5.40,
+              "teamABy2": 7.10,
+              "teamABy3Plus": 12.30,
+              "teamBBy1": 7.10,
+              "teamBBy2": 9.40,
+              "teamBBy3Plus": 16.80
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.10,
+                "10": 5.70,
+                "11": 6.90,
+                "7": 7.45,
+                "17": 8.10
+              },
+              "teamB": {
+                "9": 6.40,
+                "10": 6.05,
+                "7": 7.30,
+                "11": 8.15,
+                "14": 8.75
+              }
+            },
+            "halfTime": {
+              "teamA": 3.25,
+              "draw": 2.15,
+              "teamB": 4.55
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 3.95,
+              "teamADraw": 10.35,
+              "teamATeamB": 19.80,
+              "drawTeamA": 5.70,
+              "drawDraw": 6.05,
+              "drawTeamB": 7.45,
+              "teamBTeamA": 31.50,
+              "teamBDraw": 14.80,
+              "teamBTeamB": 8.75
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "country": "République Tchèque",
+      "name": "Divize B",
+      "flag": "./img/flags/czech.png",
+      "matches": [
+        {
+          "id": 19,
+          "teamA": {
+            "name": "TJ Sokol Živanice",
+            "logo": "./img/teams/zivanice.png",
+            "score": 2
+          },
+          "teamB": {
+            "name": "FK Náchod",
+            "logo": "./img/teams/nachod.png",
+            "score": 2
+          },
+          "date": "2025-11-06T14:00:00",
+          "kickoffTime": "2025-11-06T14:00:00",
+          "endTime": "2025-11-06T15:56:00",
+          "status": "finished",
+          "streamUrl": "https://divize-cz.tv/zivanice-nachod",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 20,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 9,
+              "minute": 39,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 10,
+              "minute": 63,
+              "type": "goal"
+            },
+            {
+              "team": "teamB",
+              "player": 11,
+              "minute": 84,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.60,
+              "draw": 3.00,
+              "teamB": 2.75
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.47,
+              "teamAOrTeamB": 1.48,
+              "drawOrTeamB": 1.54
+            },
+            "bothTeamsScore": {
+              "yes": 1.89,
+              "no": 1.91
+            },
+            "totalGoals": {
+              "over15": 1.43,
+              "under15": 2.75,
+              "over25": 2.19,
+              "under25": 1.66,
+              "over35": 3.66,
+              "under35": 1.27
+            },
+            "exactScore": {
+              "0-0": 8.15,
+              "1-0": 8.25,
+              "2-0": 9.85,
+              "2-1": 8.45,
+              "1-1": 5.75,
+              "0-1": 8.65,
+              "0-2": 10.70,
+              "1-2": 9.85,
+              "3-0": 16.60,
+              "3-1": 15.10
+            },
+            "goalDifference": {
+              "teamABy1": 6.15,
+              "teamABy2": 8.05,
+              "teamABy3Plus": 14.20,
+              "teamBBy1": 6.25,
+              "teamBBy2": 8.25,
+              "teamBBy3Plus": 14.60
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.65,
+                "10": 6.15,
+                "7": 7.18,
+                "11": 7.90,
+                "14": 8.48
+              },
+              "teamB": {
+                "9": 5.75,
+                "10": 6.20,
+                "11": 7.25,
+                "7": 7.85,
+                "17": 8.52
+              }
+            },
+            "halfTime": {
+              "teamA": 3.68,
+              "draw": 2.11,
+              "teamB": 3.82
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 4.65,
+              "teamADraw": 9.55,
+              "teamATeamB": 17.70,
+              "drawTeamA": 6.45,
+              "drawDraw": 5.58,
+              "drawTeamB": 6.52,
+              "teamBTeamA": 24.20,
+              "teamBDraw": 13.15,
+              "teamBTeamB": 7.42
+            }
+          }
+        },
+        {
+          "id": 20,
+          "teamA": {
+            "name": "Slovan Rosice",
+            "logo": "./img/teams/rosice.png",
+            "score": 2
+          },
+          "teamB": {
+            "name": "FC Velké Meziříčí",
+            "logo": "./img/teams/mezirici.png",
+            "score": 0
+          },
+          "date": "2025-11-06T14:00:00",
+          "kickoffTime": "2025-11-06T14:00:00",
+          "endTime": "2025-11-06T15:50:00",
+          "status": "finished",
+          "streamUrl": "https://divize-cz.tv/rosice-mezirici",
+          "goals": [
+            {
+              "team": "teamA",
+              "player": 9,
+              "minute": 37,
+              "type": "goal"
+            },
+            {
+              "team": "teamA",
+              "player": 10,
+              "minute": 72,
+              "type": "goal"
+            }
+          ],
+          "odds": {
+            "matchResult": {
+              "teamA": 2.25,
+              "draw": 3.12,
+              "teamB": 3.22
+            },
+            "doubleChance": {
+              "teamAOrDraw": 1.37,
+              "teamAOrTeamB": 1.50,
+              "drawOrTeamB": 1.77
+            },
+            "bothTeamsScore": {
+              "yes": 1.93,
+              "no": 1.87
+            },
+            "totalGoals": {
+              "over15": 1.37,
+              "under15": 3.02,
+              "over25": 2.09,
+              "under25": 1.73,
+              "over35": 3.47,
+              "under35": 1.30
+            },
+            "exactScore": {
+              "0-0": 9.05,
+              "1-0": 7.70,
+              "2-0": 9.00,
+              "2-1": 7.95,
+              "1-1": 6.25,
+              "0-1": 10.15,
+              "0-2": 13.60,
+              "1-2": 11.05,
+              "3-0": 15.00,
+              "3-1": 13.45
+            },
+            "goalDifference": {
+              "teamABy1": 5.45,
+              "teamABy2": 7.15,
+              "teamABy3Plus": 12.45,
+              "teamBBy1": 7.00,
+              "teamBBy2": 9.30,
+              "teamBBy3Plus": 16.50
+            },
+            "firstGoalScorer": {
+              "teamA": {
+                "9": 5.15,
+                "10": 5.72,
+                "11": 6.88,
+                "7": 7.42,
+                "16": 8.08
+              },
+              "teamB": {
+                "9": 6.35,
+                "10": 6.08,
+                "7": 7.28,
+                "11": 8.12,
+                "15": 8.72
+              }
+            },
+            "halfTime": {
+              "teamA": 3.28,
+              "draw": 2.16,
+              "teamB": 4.48
+            },
+            "halfTimeFullTime": {
+              "teamATeamA": 3.98,
+              "teamADraw": 10.28,
+              "teamATeamB": 19.50,
+              "drawTeamA": 5.68,
+              "drawDraw": 6.02,
+              "drawTeamB": 7.38,
+              "teamBTeamA": 30.80,
+              "teamBDraw": 14.65,
+              "teamBTeamB": 8.62
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
